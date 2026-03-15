@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>はじめてのLIFF</title>
+  <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+</head>
+<body>
+  <h1>LIFFアプリ</h1>
+  <p id="msg">読み込み中...</p>
+
+<script>
+async function main() {
+  await liff.init({ liffId: "2008334930-gSjIpeR9" });
+
+  if (!liff.isLoggedIn()) {
+    liff.login();
+    return;
+  }
+
+  const profile = await liff.getProfile();
+
+  const res = await fetch(
+    "https://liff-api-xxxx.a.run.app/api/hello",
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        userId: profile.userId
+      })
+    }
+  );
+
+  const data = await res.json();
+  console.log(data);
+}
+main();
+</script>
+</body>
+</html>
