@@ -24,8 +24,10 @@ overflow: hidden;
 
 .hero img{
 width: 100%;
-height: auto;   /* 高さを自動にする */
+height: auto;
+object-fit: contain;
 display: block;
+margin: 0 auto;
 }
 
 .hero-text{
