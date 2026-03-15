@@ -18,25 +18,24 @@ font-weight:bold;
 .hero{
 position: relative;
 width: 100%;
-max-width: 350px;
-border-radius: 10px;
+border-radius: 15px;
 overflow: hidden;
 }
 
 .hero img{
 width: 100%;
-height: 160px;
-object-fit: cover;
+height: auto;   /* 高さを自動にする */
 display: block;
 }
 
 .hero-text{
 position:absolute;
-bottom:20px;
-left:20px;
+bottom:15px;
+left:15px;
 color:white;
-font-size:22px;
+font-size:20px;
 font-weight:bold;
+text-shadow:0 2px 5px rgba(0,0,0,0.5);
 }
 
 /* カード */
