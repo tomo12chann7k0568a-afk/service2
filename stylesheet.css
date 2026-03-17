@@ -20,7 +20,8 @@ font-weight: bold;
 
 /* コンテナ */
 .container {
-max-width: 400px;
+width: 100px;
+max-width: none;
 margin: 0 auto;
 background: #e8e0d8;
 padding: 16px; /* ← 内側余白 */
