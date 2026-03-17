@@ -71,11 +71,14 @@ margin-top: 12px;
 display:flex;
 gap:15px;
 align-items:center;
+margin-right: auto;
+overflow: hidden;
 }
 
 .drying-sauna-type img{
 width:120px;
 border-radius:10px;
+float: left;
 }
 
 .drying-sauna-text h4{
