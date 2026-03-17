@@ -20,7 +20,7 @@ font-weight: bold;
 
 /* コンテナ */
 .container {
-width: 100px;
+width: 100%;
 max-width: none;
 margin: 0 auto;
 background: transparent;
