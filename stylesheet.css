@@ -67,18 +67,18 @@ margin-top: 12px;
 
 /* サウナ種類 */
 
-.sauna-type{
+.drying-sauna-type{
 display:flex;
 gap:15px;
 align-items:center;
 }
 
-.sauna-type img{
+.drying-sauna-type img{
 width:120px;
 border-radius:10px;
 }
 
-.sauna-text h4{
+.drying-sauna-text h4{
 margin:0;
 }
 
