@@ -25,6 +25,7 @@ max-width: 400px;
 margin: 0 auto;
 background: #e8e0d8;
 padding: 16px;
+box-sizing: border-box;
 }
 
 /* タイトル */
