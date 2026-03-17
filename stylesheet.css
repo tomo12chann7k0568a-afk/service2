@@ -43,6 +43,7 @@ overflow: hidden;
 width: 100%;
 height: auto;
 display: block;
+border-radius: 12px;
 }
 
 /* テキスト */
@@ -51,7 +52,7 @@ position: absolute;
 bottom: 10px;
 left: 16px;
 color: white;
-font-size: 16px;
+font-size: 40px;
 font-weight: bold;
 text-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
@@ -62,6 +63,23 @@ background: #eee;
 border-radius: 12px;
 padding: 16px;
 margin-top: 12px;
+}
+
+/* サウナ種類 */
+
+.sauna-type{
+display:flex;
+gap:15px;
+align-items:center;
+}
+
+.sauna-type img{
+width:120px;
+border-radius:10px;
+}
+
+.sauna-text h4{
+margin:0;
 }
 
 /* フッター */
