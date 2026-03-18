@@ -71,8 +71,6 @@ margin-top: 12px;
 display:flex;
 gap:15px;
 align-items:center;
-margin-right: auto;
-overflow: hidden;
 }
 
 .drying-sauna-type img{
@@ -82,6 +80,22 @@ float: left;
 }
 
 .drying-sauna-text h4{
+margin:0;
+}
+
+.wet-sauna-type{
+display:flex;
+gap:15px;
+align-items:center;
+}
+
+.wet-sauna-type img{
+width:120px;
+border-radius:10px;
+float: left;
+}
+
+.wet-sauna-text h4{
 margin:0;
 }
 
