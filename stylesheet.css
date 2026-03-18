@@ -74,9 +74,11 @@ align-items:center;
 }
 
 .drying-sauna-type img{
-width:120px;
-border-radius:10px;
-float: left;
+width: 120px;
+height: 80px;
+object-fit: cover;
+border-radius: 8px;
+flex-shrink: 0;
 }
 
 .drying-sauna-text h4{
@@ -90,9 +92,11 @@ align-items:center;
 }
 
 .wet-sauna-type img{
-width:120px;
-border-radius:10px;
-float: left;
+width: 120px;
+height: 80px;
+object-fit: cover;
+border-radius: 8px;
+flex-shrink: 0;
 }
 
 .wet-sauna-text h4{
@@ -115,3 +119,4 @@ justify-content: space-around;
 padding: 10px;
 font-size: 22px;
 }
+
